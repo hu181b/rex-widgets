@@ -1,5 +1,5 @@
 {
-  "title": "夏恩网盘模块合集",
+  "title": "网盘模块合集",
   "description": "小斑、TG 频道资源、蜡笔、虎斑、欧哥、TG 搜、闪电",
   "widgets": [
     {
@@ -65,5 +65,6 @@
       "author": "夏恩",
       "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/shandian.js"
     }
-  ]
+  ],
+  "icon": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/icon.png"
 }
