@@ -1,6 +1,6 @@
 {
   "title": "网盘模块合集",
-  "description": "小斑、TG 频道资源、蜡笔、虎斑、欧哥、TG 搜、闪电、小雅Alist (REX)、多多、花卷",
+  "description": "小斑、TG 频道资源、蜡笔、虎斑、欧哥、TG 搜、闪电、多多、花卷",
   "icon": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/icon.png",
   "widgets": [
     {
@@ -65,10 +65,6 @@
       "version": "1.0.0",
       "author": "夏恩",
       "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/shandian.js"
-    },
-    {
-      "title": "小雅Alist (REX)",
-      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/%E5%B0%8F%E9%9B%85Alist%20%28REX%29.js"
     },
     {
       "id": "forward.duoduo.baidu",
