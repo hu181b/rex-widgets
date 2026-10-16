@@ -1,2 +1,13 @@
-# rex-widgets
-Rex 模块订阅合集
+# Rex 模块订阅合集
+
+在 Rex 的模块库/订阅导入入口填写：
+
+```
+https://raw.githubusercontent.com/hu181b/rex-widgets/main/widgets.fwd
+```
+
+包含小斑、TG 频道资源、蜡笔、虎斑、欧哥、TG 搜、闪电共 7 个模块。
+
+百度 Cookie 和 TG 频道用户名在 Rex 中按需配置。请勿将个人 Cookie 写入本公开仓库。
+
+脚本已通过 JavaScript 语法检查，实际搜索和播放需要在 Rex 中验证。
