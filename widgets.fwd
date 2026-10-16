@@ -1,6 +1,7 @@
 {
   "title": "网盘模块合集",
-  "description": "小斑、TG 频道资源、蜡笔、虎斑、欧哥、TG 搜、闪电",
+  "description": "小斑、TG 频道资源、蜡笔、虎斑、欧哥、TG 搜、闪电、小雅Alist (REX)、多多、花卷",
+  "icon": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/icon.png",
   "widgets": [
     {
       "id": "forward.xiaoban.baidu",
@@ -64,7 +65,28 @@
       "version": "1.0.0",
       "author": "夏恩",
       "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/shandian.js"
+    },
+    {
+      "title": "小雅Alist (REX)",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/%E5%B0%8F%E9%9B%85Alist%20%28REX%29.js"
+    },
+    {
+      "id": "forward.duoduo.baidu",
+      "title": "多多",
+      "description": "搜索多多[盘]影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/duoduo.js"
+    },
+    {
+      "id": "forward.huajuan",
+      "title": "花卷",
+      "description": "搜索花卷网盘影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/forward.huajuan.js"
     }
-  ],
-  "icon": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/icon.png"
+  ]
 }
