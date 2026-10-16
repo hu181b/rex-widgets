@@ -18,12 +18,8 @@ $widgets = foreach ($file in $files) {
     $source = Get-Content -LiteralPath (Join-Path $PSScriptRoot $file) -Raw -Encoding UTF8
     $metadata = [ordered]@{}
     if ($source.StartsWith('REXENC')) {
-        $lines = $source -split '\r?\n'
-        $envelope = $lines[1] | ConvertFrom-Json
-        if ($envelope.alg -ne 'A256GCM') { throw "不支持的加密封装：$file" }
-        $null = [Convert]::FromBase64String(($lines | Select-Object -Skip 2) -join '')
-        $metadata['title'] = [System.IO.Path]::GetFileNameWithoutExtension($file)
-        Write-Host "加密模块 $file：清单名称使用文件名；内部元数据由 Rex 读取。"
+        Write-Warning "跳过加密模块 $file：缺少可核实的 ID、版本等清单信息，暂不加入订阅。"
+        continue
     } else {
     foreach ($field in @('id', 'title', 'description', 'requiredVersion', 'version', 'author')) {
         $match = [regex]::Match($source, '(?m)^\s*' + $field + ':\s*"([^"\r\n]*)"')
