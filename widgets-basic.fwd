@@ -1,0 +1,88 @@
+{
+  "title": "网盘模块合集",
+  "description": "小斑、TG 频道资源、蜡笔、虎斑、欧哥、TG 搜、闪电、多多、花卷",
+  "icon": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/icon.png",
+  "widgets": [
+    {
+      "id": "forward.xiaoban.baidu",
+      "title": "小斑",
+      "description": "搜索小斑[盘]影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/xiaoban.js"
+    },
+    {
+      "id": "forward.tgchannel.baidu",
+      "title": "TG 频道资源",
+      "description": "浏览 / 搜索指定 Telegram 公开频道里的百度网盘资源，并解析为可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/tgchannel.js"
+    },
+    {
+      "id": "forward.labi.baidu",
+      "title": "蜡笔",
+      "description": "搜索蜡笔[盘]影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/labi.js"
+    },
+    {
+      "id": "forward.huban.baidu",
+      "title": "虎斑",
+      "description": "搜索虎斑[盘]影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/huban.js"
+    },
+    {
+      "id": "forward.ouge.baidu",
+      "title": "欧哥",
+      "description": "搜索欧哥[盘]影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/ouge.js"
+    },
+    {
+      "id": "forward.tgsou.baidu",
+      "title": "TG 搜",
+      "description": "在 Telegram 公开频道内搜索百度网盘分享，并解析为可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/tgsou.js"
+    },
+    {
+      "id": "forward.shandian.baidu",
+      "title": "闪电",
+      "description": "搜索闪电[盘]影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/shandian.js"
+    },
+    {
+      "id": "forward.duoduo.baidu",
+      "title": "多多",
+      "description": "搜索多多[盘]影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/duoduo.js"
+    },
+    {
+      "id": "forward.huajuan",
+      "title": "花卷",
+      "description": "搜索花卷网盘影视资源，解析百度网盘分享并返回可播放源。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "夏恩",
+      "url": "https://raw.githubusercontent.com/hu181b/rex-widgets/main/forward.huajuan.js"
+    }
+  ]
+}
